@@ -4,18 +4,9 @@
   <meta charset="utf-8">
   <title>Word Cloud</title>
   
-  <!-- Le styles -->
-  <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/2.2.2/css/bootstrap.min.css" rel="stylesheet"> -->
-  <!-- 
-  <link href="//netdna.bootstrapcdn.com/bootstrap/2.2.2/css/bootstrap-responsive.min.css" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Finger+Paint" id="link-webfont" rel="stylesheet"> -->
-  <!-- <script defer src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> -->
-  <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
-  <!-- <script src="jquery-3.3.1.min.js" type="text/javascript"></script> -->
-  <script src="jquery-1.7.1.min.js" type="text/javascript"></script>
-
-  <!-- <script defer src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js"></script> -->
-  <script defer src="./src/wordcloud2.js"></script>
+  <!-- Le styles -->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>      
+  <script defer src="./wordcloud2.js"></script>
   <script defer src="./index.js"></script>
 
   <style>
@@ -86,35 +77,9 @@
   </style>  
 </head>
 
-<body>  
-  <div class="container">    
-    <!-- <div id="not-supported" class="alert" hidden>
-      <strong>Your browser is not supported.</strong>
-    </div> -->
-    <!-- <form id="form" method="get" action=""> -->
-      <div class="row">
-        <div class="span12" id="canvas-container">
-          <canvas id="canvas" class="canvas"></canvas>
-          <div id="html-canvas" class="canvas hide"></div>
-        </div>        
-      </div>
-      <!-- <div class="tabbable">        
-        <div class="tab-content">          
-          <div class="tab-pane" id="tab-mask">
-            <label for="config-mask">Image mask</label>
-            <input type="file" id="config-mask"><button id="config-mask-clear" class="btn" type="button">Clear</button>
-            <span class="help-block">A silhouette image which the white area will be excluded from drawing texts. The <code>shape</code> option will continue to apply as the shape of the cloud to grow.</span>
-            <span class="help-block">When there is an image set, <code>clearCanvas</code> will be set to <code>false</code>.</span>
-          </div>
-          
-          <div class="tab-pane" id="tab-webfont">
-            <label for="config-css">Extra Web Font CSS</label>
-            <input type="url" id="config-css" size="40" class="input-xxlarge" placeholder="https://fonts.googleapis.com/css?family=Libre+Baskerville:700" value="https://fonts.googleapis.com/css?family=Finger+Paint">
-            <span class="help-block">Find your favorite font on <a href="https://www.google.com/webfonts">Google Web Fonts</a>. Re-run if the font didn't load in time.</span>
-         </div>
-        </div>
-      </div> -->
-    <!-- </form> -->
-  </div>
+<body>    
+  <div id="canvas-container">
+    <canvas id="canvas" class="canvas"></canvas>          
+  </div>                
 </body>
 </html>
